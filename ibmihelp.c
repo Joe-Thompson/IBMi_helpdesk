@@ -22,6 +22,7 @@ int main(void)
 		fgets(select, MAX, stdin);
 
 		cmdPointer = cmdSearch(select);
+        // formatted outputs with tabs
 
         switch (cmdPointer) {
             case 0:
